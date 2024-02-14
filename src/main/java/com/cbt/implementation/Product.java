@@ -1,4 +1,4 @@
-package com.cbt;
+package com.cbt.implementation;
 
 public class Product { //ENTITY
 

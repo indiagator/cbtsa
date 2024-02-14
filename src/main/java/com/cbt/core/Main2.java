@@ -1,4 +1,4 @@
-package com.cbt;
+package com.cbt.core;
 
 public class Main2 {
 

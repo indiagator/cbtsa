@@ -1,0 +1,20 @@
+
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÚÖƒÛ8Ü¦ı¼Ú1
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½¨ë;8İ¦ı¼Ú1
+r	java:S117%"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬¦‚©ùÿÿÿÿ8İ¦ı¼Ú1
+r	java:S1173"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€æŸªøÿÿÿÿ8İ¦ı¼Ú1
+r	java:S1175"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Íïˆ¨üÿÿÿÿ8İ¦ı¼Ú1
+]
+java:S18543";Remove this useless assignment to local variable "buyer_1".(€æŸªøÿÿÿÿ8ß¦ı¼Ú1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(€¾é÷şÿÿÿÿ8ß¦ı¼Ú1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Æ¬¡8ß¦ı¼Ú1
+w
+java:S3923"[Remove this conditional structure or edit its code blocks so that they're not all the same.(¨ˆY8á¦ı¼Ú1
+C
+java:S2129'"!Remove this "Integer" constructor(¥²áÿÿÿÿÿ8á¦ı¼Ú1
+Q
+java:S1874'"/Remove this use of "Integer"; it is deprecated.(¥²áÿÿÿÿÿ8á¦ı¼Ú1
+U	java:S1060"9Replace this use of System.out or System.err by a logger.( ºûÄ8â¦ı¼Ú1
+Z	java:S1061"9Replace this use of System.out or System.err by a logger.(•Î¥‰øÿÿÿÿ8ã¦ı¼Ú1
+N
+java:S14813",Remove this unused "buyer_1" local variable.(€æŸªøÿÿÿÿ8ã¦ı¼Ú1
