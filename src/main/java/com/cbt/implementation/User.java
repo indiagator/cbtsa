@@ -1,9 +1,10 @@
 package com.cbt.implementation;
 
+import com.cbt.api.Communicable;
 import com.cbt.api.Editable;
 import com.cbt.api.Removable;
 
-public class User implements Editable, Removable //ENTITY EXTENDS OBJECT CLASS
+public class User implements Editable, Removable, Communicable //ENTITY EXTENDS OBJECT CLASS
 {
     //ATTRIBUTES
     private final String id; // IMMUTABLE FIELD
@@ -11,6 +12,7 @@ public class User implements Editable, Removable //ENTITY EXTENDS OBJECT CLASS
     private String phone;
     private String email;
     private String company;
+    public static final float PI = (float)3.14; //BELONGS TO THE CLASS AND NOT TO THE FUTURE OBJECTS
 
 
     public User(String id, String fullname)
@@ -28,6 +30,11 @@ public class User implements Editable, Removable //ENTITY EXTENDS OBJECT CLASS
         this.email = email; // OPTIONAL INITIALIZATION
     }
 
+    public static float getPi() // BELONGS TO THE CLASS AND NOT TO THE FUTURE OBJECTS
+    {
+        return PI;
+    }
+
     public String getUserHash()
     {
         return id.concat(fullname);
@@ -42,16 +49,8 @@ public class User implements Editable, Removable //ENTITY EXTENDS OBJECT CLASS
         return id;
     }
 
-    public void setId(String id) {
-        this.id = id;
-    }
-
     public String getFullname() {
         return fullname;
-    }
-
-    public void setFullname(String fullname) {
-        this.fullname = fullname;
     }
 
     public String getPhone() {
@@ -131,5 +130,10 @@ public class User implements Editable, Removable //ENTITY EXTENDS OBJECT CLASS
     public void remove() {
 
         //remove(this); DATABASE RELATED CODE WHICH WILL DELETE THE USER RECORD
+    }
+
+    @Override
+    public String introduce() {
+        return null;
     }
 }

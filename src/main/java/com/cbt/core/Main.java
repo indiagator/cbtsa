@@ -12,9 +12,6 @@ public class Main // THIS ALSO EXTENDS THE OBJECT CLASS
     {
 
 
-
-
-
             System.out.println("Welcome to the CBT APP Dear Buyer with arguments :"+args[0]);
 
             System.out.println("Do you want to BROWSE(1) or SEARCH(2) ?");
@@ -34,26 +31,27 @@ public class Main // THIS ALSO EXTENDS THE OBJECT CLASS
                 //INVALID INPUT LOGIC
             }
 
+            User.getPi(); //STATIC METHOD
+
             User user_1;  // DECLARATION
 
-            new User((new Integer((new Random()).nextInt())).toString(),
+            user_1 = new User((new Integer((new Random()).nextInt())).toString(),
                     "test user2"); //INSTANTIATION
 
-            user_1.setId("007"); // INITIALIZATION
-            user_1.setFullname("test user"); // INITIALIZATION
-            user_1.setCompany("test company"); // INITIALIZATION
-            user_1.setEmail("test@gmail.com"); // INITIALIZATION
-            user_1.setPhone("78797685"); // INITIALIZATION
+
+            user_1.setCompany("test company"); // INITIALIZATION | INSTANCE METHOD
+            user_1.setEmail("test@gmail.com"); // INITIALIZATION | INSTANCE METHOD
+            user_1.setPhone("78797685"); // INITIALIZATION | INSTANCE METHOD
 
             System.out.println(user_1.getUserHash());
             System.out.println(user_1.getUserHash("overloaded"));
 
-            Buyer buyer_1 = new Buyer();
+            Buyer buyer_1 = new Buyer((new Integer((new Random()).nextInt())).toString(),
+                    "test buyer1");
 
-            Buyer buyer_2 = new Buyer();
+            Buyer buyer_2 = new Buyer((new Integer((new Random()).nextInt())).toString(),
+                    "test buyer2");
             buyer_2.remove();
-
-
 
 
         // HAVING ACCESS TO THE MAIN METHOD MEANS HAVING CONTROL
