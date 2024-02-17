@@ -1,0 +1,25 @@
+
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ĞíÊ·8™©åâÚ1
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²È”÷8™©åâÚ1
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ú³Ø€øÿÿÿÿ8™©åâÚ1
+r	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é­”²ûÿÿÿÿ8™©åâÚ1
+r	java:S117$"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘ğˆÿÿÿÿÿ8™©åâÚ1
+m	java:S117&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æ³»…8™©åâÚ1
+f
+java:S22595"DA "NullPointerException" could be thrown; "user_3" is nullable here.(öšÁ­ÿÿÿÿÿ8ğ®Û1
+\
+java:S1854 ":Remove this useless assignment to local variable "user_2".(é­”²ûÿÿÿÿ8›©åâÚ1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¢öùÓ8œ©åâÚ1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(õğÃ£şÿÿÿÿ8œ©åâÚ1
+T	java:S106"9Replace this use of System.out or System.err by a logger.(‰£ø8©åâÚ1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Øÿéô8©åâÚ1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ë”‚¸8©åâÚ1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(úÇÑ©8©åâÚ1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÄôÁ´8©åâÚ1
+E
+java:S1905"(Remove this unnecessary cast to "Buyer".(ÄôÁ´8©åâÚ1
+M
+java:S1481 "+Remove this unused "user_2" local variable.(é­”²ûÿÿÿÿ8©åâÚ1
+T	java:S106#"9Replace this use of System.out or System.err by a logger.(”ªÁ8Ÿ©åâÚ1
+T	java:S1062"9Replace this use of System.out or System.err by a logger.(±¨8Ú¥ëâÚ1
+Z	java:S1065"9Replace this use of System.out or System.err by a logger.(öšÁ­ÿÿÿÿÿ8ÕƒíâÚ1
